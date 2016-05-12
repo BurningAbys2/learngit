@@ -30,3 +30,26 @@ git remote add origin https://github.com/BurningAbys2/learngit.git
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改
 
  从远程库clone版本：git clone git@github.com:BuringAbys2/gitskills.git
+ 
+ 
+ Git鼓励大量使用分支：
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
+
+小结
+
+在GitHub上，可以任意Fork开源仓库；
+
+自己拥有Fork后的仓库的读写权限；
+
+可以推送pull request给官方仓库来贡献代码。
