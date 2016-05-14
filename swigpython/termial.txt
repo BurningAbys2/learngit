@@ -1,0 +1,4 @@
+利用swig 让python中嵌入C++
+ -python -c++ idid.i
+ g++ -c idid_wrap.cxx idid.cpp -I /usr/include/python2.7/ -fPIC
+ g++ -shared idid.o idid_wrap.o -o _idid.so
